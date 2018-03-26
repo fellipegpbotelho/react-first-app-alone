@@ -1,15 +1,50 @@
 {
-    "franchises": [
-        {
-            "id": 1,
-            "name": "Cleveland Cavaliers",
-            "franchisePlayer": "Lebron James",
-            "conference": "Eastern",
-            "logo": "http://content.sportslogos.net/logos/6/222/thumbs/22269212018.gif"
-        }
-    ],
-    "conferences": [
-        "Eastern",
-        "Western"
-    ]
+  "franchises": [
+    {
+      "id": 1,
+      "name": "Cleveland Cavaliers",
+      "franchisePlayer": "Lebron James",
+      "conference": "Eastern",
+      "logo": "http://content.sportslogos.net/logos/6/222/thumbs/22269212018.gif"
+    },
+    {
+      "name": "Philadelphia 76ers",
+      "franchisePlayer": "Joel Embid",
+      "conference": "Eastern",
+      "logo": "http://content.sportslogos.net/logos/6/218/thumbs/21870342016.gif",
+      "id": 2
+    },
+    {
+      "name": "Portland Trail Blazers",
+      "franchisePlayer": "Damian Lillard",
+      "conference": "Western",
+      "logo": "http://content.sportslogos.net/logos/6/239/thumbs/23997252018.gif",
+      "id": 3
+    },
+    {
+      "name": "Phoenix Suns",
+      "franchisePlayer": "Devin Booker",
+      "conference": "Eastern",
+      "logo": "http://content.sportslogos.net/logos/6/238/thumbs/23843702014.gif",
+      "id": 4
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "franchisePlayer": "Antony Davis",
+      "conference": "Western",
+      "logo": "http://content.sportslogos.net/logos/6/4962/thumbs/496226812014.gif",
+      "id": 5
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "franchisePlayer": "Antetokoumpo",
+      "conference": "Eastern",
+      "logo": "http://content.sportslogos.net/logos/6/225/thumbs/22582752016.gif",
+      "id": 6
+    }
+  ],
+  "conferences": [
+    "Eastern",
+    "Western"
+  ]
 }

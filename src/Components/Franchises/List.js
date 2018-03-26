@@ -40,7 +40,7 @@ class List extends React.Component {
                     <img width="100" src={ franchise.logo } alt={ franchise.name }/>
                 </td>
                 <td>{ franchise.name }</td>
-                <td>{ franchise.franchisePlayer }</td>
+                <td><strong>{ franchise.franchisePlayer }</strong></td>
             </tr>
         )
     }
@@ -50,6 +50,9 @@ class List extends React.Component {
         return (
             <div key="table-franchises" className="row">
                 <div className="col-md-12">
+                    <div className="page-header">
+                        <h1>NBA Franchises <small>all franchises</small></h1>
+                    </div>
                     {
                         this.state.isLoading &&
                         <p>Carregando, aguarde...</p>
