@@ -4,7 +4,8 @@
             "id": 1,
             "name": "Cleveland Cavaliers",
             "franchisePlayer": "Lebron James",
-            "conference": "Eastern"
+            "conference": "Eastern",
+            "logo": "http://content.sportslogos.net/logos/6/222/thumbs/22269212018.gif"
         }
     ],
     "conferences": [
