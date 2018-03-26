@@ -1,0 +1,14 @@
+{
+    "franchises": [
+        {
+            "id": 1,
+            "name": "Cleveland Cavaliers",
+            "franchisePlayer": "Lebron James",
+            "conference": "Eastern"
+        }
+    ],
+    "conferences": [
+        "Eastern",
+        "Western"
+    ]
+}
