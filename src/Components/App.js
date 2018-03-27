@@ -7,6 +7,7 @@ import {
 
 import List from './Franchises/List'
 import Create from './Franchises/Create'
+import Edit from './Franchises/Edit'
 
 class App extends Component {
   	render() {
@@ -37,8 +38,9 @@ class App extends Component {
 								</ul>
 							</div>
 						</nav>
-						<Route exact path="/" component={List} />
-						<Route exact path="/franchises/create" component={Create} />
+						<Route exact path="/" component={ List } />
+						<Route exact path="/franchises/create" component={ Create } />
+						<Route exact path="/franchises/edit/:id" component={ Edit } />
 					</div>
 				</div>	
 			</Router>
